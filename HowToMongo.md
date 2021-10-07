@@ -95,7 +95,7 @@ First we have to add another IP address to the list of network interfaces on whi
 # should be like this
 net:
   port: 27017
-  bindIp: 127.0.0.1, mongo-server1
+  bindIp: 127.0.0.1,mongo-server1
 ```
 
 Next, you will uncomment the replication section, and add another key value pair.
